@@ -1,0 +1,11 @@
+.gpt3__feature-container__heading h3 {
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: -0.06rem;
+}
+
+@media screen and (max-width: 700px) {
+  .gpt3__feature {
+    font-size: 1rem;
+  }
+}

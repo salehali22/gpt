@@ -1,0 +1,140 @@
+.gpt3__possibility {
+  font-family: var(--font-family);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gpt3__possibility-container {
+  display: flex;
+  padding: 4rem 0;
+}
+
+.gpt3__possibility-container__content {
+  max-width: 29rem;
+  margin-left: 5rem;
+}
+
+.gpt3__possibility-container__content * {
+  position: relative;
+  top: 5rem;
+}
+
+.gpt3__possibility-container__content-header {
+  margin-bottom: 2rem;
+}
+
+.gpt3__possibility-container__content-header p {
+  color: #71e5ff;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.875rem;
+}
+
+.gpt3__possibility-container__content-header h1 {
+  font-size: 2.1rem;
+  line-height: 2.8rem;
+}
+
+.gpt3__possibility-container__content-footer h5 {
+  color: #81afdd;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 33rem;
+  flex-shrink: 0;
+}
+
+.gpt3__possibility-container__content-footer p {
+  color: #ff8a71;
+  font-size: 0.8rem;
+  line-height: 1.875rem;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 2000px) {
+  .gpt3__possibility-container * {
+    margin: 0 3rem;
+  }
+
+  .gpt3__possibility-container__content * {
+    margin: 1.5rem 0;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  img {
+    width: 25rem;
+  }
+
+  .gpt3__possibility-container__content * {
+    top: 3rem;
+    margin: 1rem 0;
+  }
+  .gpt3__possibility-container__content h1 {
+    font-size: 2rem;
+    line-height: 2.6rem;
+  }
+  .gpt3__possibility-container__content-footer h5 {
+    font-size: 1rem;
+    line-height: 1.8em;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .gpt3__possibility-container {
+    flex-direction: column;
+    padding: 0;
+  }
+  .gpt3__possibility-container__content * {
+    top: 0;
+    margin: 1.5rem 0;
+  }
+  .gpt3__possibility-container__image {
+    text-align: center;
+  }
+  .gpt3__possibility-container__content {
+    padding: 2.5rem 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .gpt3__possibility-container {
+    flex-direction: column;
+    padding: 0;
+  }
+  .gpt3__possibility-container__content * {
+    top: 0;
+    margin: 1.5rem 0;
+  }
+  .gpt3__possibility-container__image {
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .gpt3__possibility-container__content-header h1 {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
+  .gpt3__possibility-container__content {
+    margin: 0;
+    padding: 0;
+  }
+
+  .gpt3__possibility-container p {
+    font-size: 0.9rem;
+  }
+
+  .gpt3__possibility-container__content-footer h5 {
+    line-height: 1.5rem;
+  }
+}
